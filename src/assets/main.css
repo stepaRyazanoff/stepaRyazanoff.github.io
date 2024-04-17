@@ -1,0 +1,43 @@
+@import 'normalize.css';
+@import 'fonts.css';
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+ul,
+li {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    color: #E6E6E6;
+}
+
+.container {
+    max-width: 1920px;
+    margin: 0 auto;
+}
